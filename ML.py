@@ -484,7 +484,7 @@ rmse_test = np.sqrt(mean_squared_error(y_test, y_test_pred))
 print("Training Set - R²: {:.4f}, RMSE: {:.4f}".format(r2_train, rmse_train))
 print("Testing Set - R²: {:.4f}, RMSE: {:.4f}".format(r2_test, rmse_test))
 
-pip install shap
+
 
 import shap
 
